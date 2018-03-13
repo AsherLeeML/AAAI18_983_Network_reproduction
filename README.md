@@ -15,6 +15,9 @@ You can run the experiment yourself to see the results.
 
 
 **update**
+
 I've run these two experiments for several days and it's still running. The computation amount is much larger than I expected. However, the results are disappointing (the best accuracies are no more than 30%) and I try to figure out why.
+
 The most important part is, I guess, is that the EEG data are poorly represented. How long does a motor imagery executation at least takes? The author just cropped the EEG data into a 3D cube: a 2-D map with 10 time-points. So can it contain some useful information about motor imagery? I doubt it.
-I don't want to continue more experiments like the para-model. Another paper written by germans seems much more believable.
+
+I don't want to continue more experiments like the para-model. Another paper written by some Germans seems much more believable.
